@@ -8,7 +8,7 @@
 ![Models](https://img.shields.io/badge/inputs-ECMWF%20%7C%20GFS%20%7C%20regional%20high--res-blue?style=flat-square)
 ![Horizon](https://img.shields.io/badge/horizon-240%20h-orange?style=flat-square)
 ![Ensemble](https://img.shields.io/badge/ensemble-80%2B%20members-purple?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-141%20functions-brightgreen?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-172%20functions-brightgreen?style=flat-square)
 ![Calibration](https://img.shields.io/badge/validated-held--out%20test-lightgrey?style=flat-square)
 
 *Source is private. This page documents the model and how it is engineered.*
@@ -55,20 +55,10 @@ ARIA takes the raw output of the world's weather models and corrects it for each
 
 ## How a forecast is made
 
-```mermaid
-flowchart LR
-  subgraph Offline["Calibration (per spot)"]
-    O[Observed wind data<br/>stations + reanalysis] --> D[Calibration scripts<br/>validated fit]
-    D --> P[(Spot profiles<br/>MOS + gradient + confidence)]
-  end
-  subgraph Live["Forecast (every 6 h)"]
-    N[Weather models<br/>global + regional] --> E[Selector + ensemble]
-    E --> C[Correction]
-    P --> C
-    C --> F[(Forecast cache<br/>240 h)]
-    F --> A[Public forecast API]
-  end
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/aria/architecture-dark.svg">
+  <img alt="ARIA architecture" src="../../assets/aria/architecture-light.svg">
+</picture>
 
 [Explore the interactive diagram](../../assets/aria/architecture.html)
 
@@ -111,7 +101,7 @@ The profiles, fitted values and station choices are the private part, and are sh
 
 **Operated like a service.** A scheduler regenerates every calibrated spot every six hours. A failing spot is recorded with an error count and does not block the others. Provider call budgets are computed and written down. Calibration commits propagate to the running app without a restart, through a short-lived cache, with the brief inconsistency window documented and accepted.
 
-**Tested.** 141 test functions across the model selector, the correction service, the gap-wind service and schema, the raw-data service, the regeneration job and the forecast pipeline.
+**Tested.** 172 test functions across the model selector, the correction service, the gap-wind service and schema, the raw-data service, the regeneration job and the forecast pipeline.
 
 ---
 
@@ -145,10 +135,14 @@ The profiles, fitted values and station choices are the private part, and are sh
 |---|---|
 | Services, models and API | ~1.4k lines |
 | Calibration and forecast scripts | ~2.6k lines |
-| Tests | 141 test functions, ~1.7k lines |
+| Tests | 172 test functions, ~2.2k lines |
 | Design and engineering docs | 4 documents, ~2k lines |
 
-<!-- TODO: structure.svg -->
+| Where the code lives | Structure map |
+|---|---|
+| ![code by file](../../assets/aria/code.svg) | ![structure](../../assets/aria/structure.svg) |
+
+*Structure map: circle size is file size, colour is file type. Folder and file names only.*
 
 ---
 

@@ -103,22 +103,10 @@ One platform runs the money and goods for every party in a gear ecosystem.
 
 ## The money path
 
-```mermaid
-flowchart LR
-  SF[Storefront or brand's own shop] --> ORD[Consumer order<br/>server-side pricing]
-  ORD --> FAC[Factory queue<br/>production]
-  ORD --> DEL{Delivered}
-  FAC --> DEL
-  DEL --> LED[Unit ledger<br/>serialised gear, hash-chained history]
-  DEL --> SET[Settlement engine<br/>integer-cent split]
-  SET --> PAY[Payment provider<br/>one transfer per party]
-  SET --> INV[Unified invoice ledger]
-  REF[Refund or lost dispute] --> REV[Reversal and clawback]
-  REV --> PAY
-  REV --> INV
-  INV --> REC[Reconciliation<br/>drift detection]
-  REC --> ALR[Alerts for critical drift]
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/allyos-erp/architecture-dark.svg">
+  <img alt="ERP money path" src="../../assets/allyos-erp/architecture-light.svg">
+</picture>
 
 [Explore the interactive diagram](../../assets/allyos-erp/architecture.html)
 
@@ -289,7 +277,11 @@ Largest test suites: factory portal, settlement reversal, fleet program, unified
 
 *Counts are approximate: files whose names belong to the ERP domain, inside the shared AllyOS backend.*
 
-<!-- TODO: structure.svg (repo-visualizer, ERP subset) -->
+| Where the code lives | Structure map |
+|---|---|
+| ![code by area](../../assets/allyos-erp/code.svg) | ![structure](../../assets/allyos-erp/structure.svg) |
+
+*Structure map: circle size is file size, colour is file type. Folder and file names only.*
 
 ---
 
