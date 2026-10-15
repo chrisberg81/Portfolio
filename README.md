@@ -1,6 +1,6 @@
-# Chris Bergler: Product & Engineering Portfolio
+# Product & Engineering Portfolio
 
-Platforms, tools and data products I design and build end to end. Source is private. This repo shows **what each project is, how it is built, and how big it is**.
+Platforms, tools and data products designed and built end to end. Source is private. This repo shows **what each project is, how it is built, and how big it is**.
 
 > Open to: licensing, acquisition conversations, consulting and senior engineering roles. Contact: [antigravityalliance.com](https://antigravityalliance.com) · [dev@allyos.app](mailto:dev@allyos.app) · +27 76 931 7108
 
