@@ -188,6 +188,27 @@ The core does not care which sport is taught. What differs is a small set of spo
 
 ---
 
+## Security and compliance
+
+**Controls in place**
+- **Tenant isolation** enforced in the database with row-level security, with a written design for tenant-scoped uploads.
+- **Access checks written once:** object-level school, brand and factory access dependencies, reused by the service layer and the assistant tools.
+- **Secrets:** no credentials in code, tokens encrypted at rest, API keys stored only as hashes and compared in constant time, signed webhooks and signed expiring tokens, and a rotation checklist.
+- **Audit trail:** an audit middleware, admin audit records, an assistant audit log and append-only event ledgers.
+- **Change control:** CI on every change, linted commits, automated code review and versioned migrations; the web app also runs secret scanning, dependency audits and bundle budgets.
+- **Public surface:** anonymous endpoints are rate-limited and scoped, with scrape protection on directory and weather routes.
+
+**Compliance roadmap.** SOC 2 certification has not been started.
+
+| Step | Progress | |
+|---|---|---|
+| Technical controls | `▰▰▰▰▰▰▰▱▱▱` 70% | In place, see list above |
+| Written security policies | `▰▱▱▱▱▱▱▱▱▱` 10% | Planned |
+| Compliance automation and evidence collection | `▱▱▱▱▱▱▱▱▱▱` 0% | Planned: Vanta |
+| Independent SOC 2 audit | `▱▱▱▱▱▱▱▱▱▱` 0% | Planned, after an observation period |
+
+---
+
 ## Build status
 
 | Area | Progress | |

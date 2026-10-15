@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 496" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="900" height="496" rx="14" fill="#0b0f14"/>
+<text x="32" y="44" fill="#d7e3ea" font-size="19" font-weight="700">Booking backend: where the code lives</text>
+<text x="32" y="68" fill="#7f93a0" font-size="12.5">Python, by capability (17,510 lines)</text>
+<text x="218" y="119" fill="#d7e3ea" font-size="12.5" text-anchor="end">Notifications and channels</text>
+<rect x="230" y="104" width="580.0" height="22" rx="4" fill="#5eead4" opacity="0.92"/>
+<text x="818.0" y="119" fill="#7f93a0" font-size="12">3,840</text>
+<text x="218" y="153" fill="#d7e3ea" font-size="12.5" text-anchor="end">School bookings and scheduler</text>
+<rect x="230" y="138" width="561.6" height="22" rx="4" fill="#60a5fa" opacity="0.92"/>
+<text x="799.6" y="153" fill="#7f93a0" font-size="12">3,718</text>
+<text x="218" y="187" fill="#d7e3ea" font-size="12.5" text-anchor="end">Public widget API</text>
+<rect x="230" y="172" width="462.9" height="22" rx="4" fill="#a78bfa" opacity="0.92"/>
+<text x="700.9" y="187" fill="#7f93a0" font-size="12">3,065</text>
+<text x="218" y="221" fill="#d7e3ea" font-size="12.5" text-anchor="end">Waivers</text>
+<rect x="230" y="206" width="334.9" height="22" rx="4" fill="#fbbf24" opacity="0.92"/>
+<text x="572.9" y="221" fill="#7f93a0" font-size="12">2,217</text>
+<text x="218" y="255" fill="#d7e3ea" font-size="12.5" text-anchor="end">Waitlist</text>
+<rect x="230" y="240" width="195.1" height="22" rx="4" fill="#f472b6" opacity="0.92"/>
+<text x="433.1" y="255" fill="#7f93a0" font-size="12">1,292</text>
+<text x="218" y="289" fill="#d7e3ea" font-size="12.5" text-anchor="end">Cancellation and change handling</text>
+<rect x="230" y="274" width="144.5" height="22" rx="4" fill="#34d399" opacity="0.92"/>
+<text x="382.5" y="289" fill="#7f93a0" font-size="12">957</text>
+<text x="218" y="323" fill="#d7e3ea" font-size="12.5" text-anchor="end">Transport, excursions, trips</text>
+<rect x="230" y="308" width="136.8" height="22" rx="4" fill="#38bdf8" opacity="0.92"/>
+<text x="374.8" y="323" fill="#7f93a0" font-size="12">906</text>
+<text x="218" y="357" fill="#d7e3ea" font-size="12.5" text-anchor="end">Group courses</text>
+<rect x="230" y="342" width="112.4" height="22" rx="4" fill="#fb923c" opacity="0.92"/>
+<text x="350.4" y="357" fill="#7f93a0" font-size="12">744</text>
+<text x="218" y="391" fill="#d7e3ea" font-size="12.5" text-anchor="end">Other booking code</text>
+<rect x="230" y="376" width="67.7" height="22" rx="4" fill="#c084fc" opacity="0.92"/>
+<text x="305.7" y="391" fill="#7f93a0" font-size="12">448</text>
+<text x="218" y="425" fill="#d7e3ea" font-size="12.5" text-anchor="end">Instructor availability</text>
+<rect x="230" y="410" width="48.8" height="22" rx="4" fill="#94a3b8" opacity="0.92"/>
+<text x="286.8" y="425" fill="#7f93a0" font-size="12">323</text>
+</svg>
