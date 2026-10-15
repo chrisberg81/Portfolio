@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="900" height="530" rx="14" fill="#0b0f14"/>
+<text x="32" y="44" fill="#d7e3ea" font-size="19" font-weight="700">Backend: where the code lives</text>
+<text x="32" y="68" fill="#7f93a0" font-size="12.5">Python, by module (183,252 lines)</text>
+<text x="218" y="119" fill="#d7e3ea" font-size="12.5" text-anchor="end">api/api_v1</text>
+<rect x="230" y="104" width="580.0" height="22" rx="4" fill="#5eead4" opacity="0.92"/>
+<text x="818.0" y="119" fill="#7f93a0" font-size="12">92,165</text>
+<text x="218" y="153" fill="#d7e3ea" font-size="12.5" text-anchor="end">services</text>
+<rect x="230" y="138" width="218.3" height="22" rx="4" fill="#60a5fa" opacity="0.92"/>
+<text x="456.3" y="153" fill="#7f93a0" font-size="12">34,696</text>
+<text x="218" y="187" fill="#d7e3ea" font-size="12.5" text-anchor="end">models</text>
+<rect x="230" y="172" width="78.0" height="22" rx="4" fill="#a78bfa" opacity="0.92"/>
+<text x="316.0" y="187" fill="#7f93a0" font-size="12">12,402</text>
+<text x="218" y="221" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/tools</text>
+<rect x="230" y="206" width="45.5" height="22" rx="4" fill="#fbbf24" opacity="0.92"/>
+<text x="283.5" y="221" fill="#7f93a0" font-size="12">7,236</text>
+<text x="218" y="255" fill="#d7e3ea" font-size="12.5" text-anchor="end">db</text>
+<rect x="230" y="240" width="35.6" height="22" rx="4" fill="#f472b6" opacity="0.92"/>
+<text x="273.6" y="255" fill="#7f93a0" font-size="12">5,651</text>
+<text x="218" y="289" fill="#d7e3ea" font-size="12.5" text-anchor="end">schemas</text>
+<rect x="230" y="274" width="32.7" height="22" rx="4" fill="#34d399" opacity="0.92"/>
+<text x="270.7" y="289" fill="#7f93a0" font-size="12">5,189</text>
+<text x="218" y="323" fill="#d7e3ea" font-size="12.5" text-anchor="end">services/billing</text>
+<rect x="230" y="308" width="24.0" height="22" rx="4" fill="#38bdf8" opacity="0.92"/>
+<text x="262.0" y="323" fill="#7f93a0" font-size="12">3,821</text>
+<text x="218" y="357" fill="#d7e3ea" font-size="12.5" text-anchor="end">crud</text>
+<rect x="230" y="342" width="23.8" height="22" rx="4" fill="#fb923c" opacity="0.92"/>
+<text x="261.8" y="357" fill="#7f93a0" font-size="12">3,786</text>
+<text x="218" y="391" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/services</text>
+<rect x="230" y="376" width="19.5" height="22" rx="4" fill="#c084fc" opacity="0.92"/>
+<text x="257.5" y="391" fill="#7f93a0" font-size="12">3,095</text>
+<text x="218" y="425" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/workflows</text>
+<rect x="230" y="410" width="15.3" height="22" rx="4" fill="#94a3b8" opacity="0.92"/>
+<text x="253.3" y="425" fill="#7f93a0" font-size="12">2,427</text>
+<text x="218" y="459" fill="#d7e3ea" font-size="12.5" text-anchor="end">other</text>
+<rect x="230" y="444" width="80.5" height="22" rx="4" fill="#475569" opacity="0.92"/>
+<text x="318.5" y="459" fill="#7f93a0" font-size="12">12,784</text>
+</svg>

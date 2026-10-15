@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 326" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="900" height="326" rx="14" fill="#0b0f14"/>
+<text x="32" y="44" fill="#d7e3ea" font-size="19" font-weight="700">Sites Engine: where the code lives</text>
+<text x="32" y="68" fill="#7f93a0" font-size="12.5">TypeScript, by package (1,783 lines)</text>
+<text x="218" y="119" fill="#d7e3ea" font-size="12.5" text-anchor="end">packages/sites-app</text>
+<rect x="230" y="104" width="580.0" height="22" rx="4" fill="#5eead4" opacity="0.92"/>
+<text x="818.0" y="119" fill="#7f93a0" font-size="12">875</text>
+<text x="218" y="153" fill="#d7e3ea" font-size="12.5" text-anchor="end">packages/allyos-sdk</text>
+<rect x="230" y="138" width="212.8" height="22" rx="4" fill="#60a5fa" opacity="0.92"/>
+<text x="450.8" y="153" fill="#7f93a0" font-size="12">321</text>
+<text x="218" y="187" fill="#d7e3ea" font-size="12.5" text-anchor="end">packages/shopify</text>
+<rect x="230" y="172" width="175.0" height="22" rx="4" fill="#a78bfa" opacity="0.92"/>
+<text x="413.0" y="187" fill="#7f93a0" font-size="12">264</text>
+<text x="218" y="221" fill="#d7e3ea" font-size="12.5" text-anchor="end">packages/ui</text>
+<rect x="230" y="206" width="158.4" height="22" rx="4" fill="#fbbf24" opacity="0.92"/>
+<text x="396.4" y="221" fill="#7f93a0" font-size="12">239</text>
+<text x="218" y="255" fill="#d7e3ea" font-size="12.5" text-anchor="end">packages/themes</text>
+<rect x="230" y="240" width="55.7" height="22" rx="4" fill="#f472b6" opacity="0.92"/>
+<text x="293.7" y="255" fill="#7f93a0" font-size="12">84</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="900" height="530" rx="14" fill="#0b0f14"/>
+<text x="32" y="44" fill="#d7e3ea" font-size="19" font-weight="700">Web app: where the code lives</text>
+<text x="32" y="68" fill="#7f93a0" font-size="12.5">TypeScript, by area (119,994 lines)</text>
+<text x="218" y="119" fill="#d7e3ea" font-size="12.5" text-anchor="end">components/app</text>
+<rect x="230" y="104" width="580.0" height="22" rx="4" fill="#5eead4" opacity="0.92"/>
+<text x="818.0" y="119" fill="#7f93a0" font-size="12">59,511</text>
+<text x="218" y="153" fill="#d7e3ea" font-size="12.5" text-anchor="end">lib/api</text>
+<rect x="230" y="138" width="174.4" height="22" rx="4" fill="#60a5fa" opacity="0.92"/>
+<text x="412.4" y="153" fill="#7f93a0" font-size="12">17,895</text>
+<text x="218" y="187" fill="#d7e3ea" font-size="12.5" text-anchor="end">app/app</text>
+<rect x="230" y="172" width="102.3" height="22" rx="4" fill="#a78bfa" opacity="0.92"/>
+<text x="340.3" y="187" fill="#7f93a0" font-size="12">10,499</text>
+<text x="218" y="221" fill="#d7e3ea" font-size="12.5" text-anchor="end">src/widget</text>
+<rect x="230" y="206" width="80.0" height="22" rx="4" fill="#fbbf24" opacity="0.92"/>
+<text x="318.0" y="221" fill="#7f93a0" font-size="12">8,207</text>
+<text x="218" y="255" fill="#d7e3ea" font-size="12.5" text-anchor="end">components/connect</text>
+<rect x="230" y="240" width="75.4" height="22" rx="4" fill="#f472b6" opacity="0.92"/>
+<text x="313.4" y="255" fill="#7f93a0" font-size="12">7,738</text>
+<text x="218" y="289" fill="#d7e3ea" font-size="12.5" text-anchor="end">app/connect</text>
+<rect x="230" y="274" width="51.5" height="22" rx="4" fill="#34d399" opacity="0.92"/>
+<text x="289.5" y="289" fill="#7f93a0" font-size="12">5,286</text>
+<text x="218" y="323" fill="#d7e3ea" font-size="12.5" text-anchor="end">lib</text>
+<rect x="230" y="308" width="36.0" height="22" rx="4" fill="#38bdf8" opacity="0.92"/>
+<text x="274.0" y="323" fill="#7f93a0" font-size="12">3,689</text>
+<text x="218" y="357" fill="#d7e3ea" font-size="12.5" text-anchor="end">lib/types</text>
+<rect x="230" y="342" width="16.3" height="22" rx="4" fill="#fb923c" opacity="0.92"/>
+<text x="254.3" y="357" fill="#7f93a0" font-size="12">1,675</text>
+<text x="218" y="391" fill="#d7e3ea" font-size="12.5" text-anchor="end">components/ui</text>
+<rect x="230" y="376" width="14.8" height="22" rx="4" fill="#c084fc" opacity="0.92"/>
+<text x="252.8" y="391" fill="#7f93a0" font-size="12">1,521</text>
+<text x="218" y="425" fill="#d7e3ea" font-size="12.5" text-anchor="end">app/auth</text>
+<rect x="230" y="410" width="7.8" height="22" rx="4" fill="#94a3b8" opacity="0.92"/>
+<text x="245.8" y="425" fill="#7f93a0" font-size="12">801</text>
+<text x="218" y="459" fill="#d7e3ea" font-size="12.5" text-anchor="end">other</text>
+<rect x="230" y="444" width="30.9" height="22" rx="4" fill="#475569" opacity="0.92"/>
+<text x="268.9" y="459" fill="#7f93a0" font-size="12">3,172</text>
+</svg>

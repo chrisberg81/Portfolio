@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 462" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="900" height="462" rx="14" fill="#0b0f14"/>
+<text x="32" y="44" fill="#d7e3ea" font-size="19" font-weight="700">AI layer: where the code lives</text>
+<text x="32" y="68" fill="#7f93a0" font-size="12.5">Python, assistants and MCP server (17,754 lines)</text>
+<text x="218" y="119" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/tools</text>
+<rect x="230" y="104" width="580.0" height="22" rx="4" fill="#5eead4" opacity="0.92"/>
+<text x="818.0" y="119" fill="#7f93a0" font-size="12">7,236</text>
+<text x="218" y="153" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/services</text>
+<rect x="230" y="138" width="248.1" height="22" rx="4" fill="#60a5fa" opacity="0.92"/>
+<text x="486.1" y="153" fill="#7f93a0" font-size="12">3,095</text>
+<text x="218" y="187" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/workflows</text>
+<rect x="230" y="172" width="194.5" height="22" rx="4" fill="#a78bfa" opacity="0.92"/>
+<text x="432.5" y="187" fill="#7f93a0" font-size="12">2,427</text>
+<text x="218" y="221" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/roles</text>
+<rect x="230" y="206" width="177.4" height="22" rx="4" fill="#fbbf24" opacity="0.92"/>
+<text x="415.4" y="221" fill="#7f93a0" font-size="12">2,213</text>
+<text x="218" y="255" fill="#d7e3ea" font-size="12.5" text-anchor="end">mcp/tools</text>
+<rect x="230" y="240" width="83.0" height="22" rx="4" fill="#f472b6" opacity="0.92"/>
+<text x="321.0" y="255" fill="#7f93a0" font-size="12">1,035</text>
+<text x="218" y="289" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/runtime</text>
+<rect x="230" y="274" width="56.7" height="22" rx="4" fill="#34d399" opacity="0.92"/>
+<text x="294.7" y="289" fill="#7f93a0" font-size="12">707</text>
+<text x="218" y="323" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants/knowledge</text>
+<rect x="230" y="308" width="47.1" height="22" rx="4" fill="#38bdf8" opacity="0.92"/>
+<text x="285.1" y="323" fill="#7f93a0" font-size="12">587</text>
+<text x="218" y="357" fill="#d7e3ea" font-size="12.5" text-anchor="end">mcp</text>
+<rect x="230" y="342" width="36.4" height="22" rx="4" fill="#fb923c" opacity="0.92"/>
+<text x="274.4" y="357" fill="#7f93a0" font-size="12">454</text>
+<text x="218" y="391" fill="#d7e3ea" font-size="12.5" text-anchor="end">assistants</text>
+<rect x="230" y="376" width="3.0" height="22" rx="4" fill="#c084fc" opacity="0.92"/>
+<text x="241.0" y="391" fill="#7f93a0" font-size="12">0</text>
+</svg>

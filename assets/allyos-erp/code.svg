@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 462" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="900" height="462" rx="14" fill="#0b0f14"/>
+<text x="32" y="44" fill="#d7e3ea" font-size="19" font-weight="700">ERP: where the code lives</text>
+<text x="32" y="68" fill="#7f93a0" font-size="12.5">Python, by area of the platform (41,560 lines)</text>
+<text x="218" y="119" fill="#d7e3ea" font-size="12.5" text-anchor="end">School finance and payroll</text>
+<rect x="230" y="104" width="580.0" height="22" rx="4" fill="#5eead4" opacity="0.92"/>
+<text x="818.0" y="119" fill="#7f93a0" font-size="12">12,499</text>
+<text x="218" y="153" fill="#d7e3ea" font-size="12.5" text-anchor="end">Invoicing and PDF</text>
+<rect x="230" y="138" width="255.5" height="22" rx="4" fill="#60a5fa" opacity="0.92"/>
+<text x="493.5" y="153" fill="#7f93a0" font-size="12">5,506</text>
+<text x="218" y="187" fill="#d7e3ea" font-size="12.5" text-anchor="end">Gear kits, resale, fleet</text>
+<rect x="230" y="172" width="232.1" height="22" rx="4" fill="#a78bfa" opacity="0.92"/>
+<text x="470.1" y="187" fill="#7f93a0" font-size="12">5,001</text>
+<text x="218" y="221" fill="#d7e3ea" font-size="12.5" text-anchor="end">Settlement, reversals, disputes</text>
+<rect x="230" y="206" width="194.7" height="22" rx="4" fill="#fbbf24" opacity="0.92"/>
+<text x="432.7" y="221" fill="#7f93a0" font-size="12">4,195</text>
+<text x="218" y="255" fill="#d7e3ea" font-size="12.5" text-anchor="end">Orders and Shopify bridge</text>
+<rect x="230" y="240" width="181.3" height="22" rx="4" fill="#f472b6" opacity="0.92"/>
+<text x="419.3" y="255" fill="#7f93a0" font-size="12">3,908</text>
+<text x="218" y="289" fill="#d7e3ea" font-size="12.5" text-anchor="end">Factory portal and production</text>
+<rect x="230" y="274" width="164.5" height="22" rx="4" fill="#34d399" opacity="0.92"/>
+<text x="402.5" y="289" fill="#7f93a0" font-size="12">3,545</text>
+<text x="218" y="323" fill="#d7e3ea" font-size="12.5" text-anchor="end">Inventory and transfers</text>
+<rect x="230" y="308" width="157.7" height="22" rx="4" fill="#38bdf8" opacity="0.92"/>
+<text x="395.7" y="323" fill="#7f93a0" font-size="12">3,398</text>
+<text x="218" y="357" fill="#d7e3ea" font-size="12.5" text-anchor="end">Catalogue and pricing</text>
+<rect x="230" y="342" width="113.6" height="22" rx="4" fill="#fb923c" opacity="0.92"/>
+<text x="351.6" y="357" fill="#7f93a0" font-size="12">2,448</text>
+<text x="218" y="391" fill="#d7e3ea" font-size="12.5" text-anchor="end">Reconciliation</text>
+<rect x="230" y="376" width="49.2" height="22" rx="4" fill="#c084fc" opacity="0.92"/>
+<text x="287.2" y="391" fill="#7f93a0" font-size="12">1,060</text>
+</svg>
